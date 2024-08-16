@@ -14,3 +14,22 @@ a {
 * {
   box-sizing: border-box;
 }
+
+.centerEL{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.centerFlex{
+  display: flex;
+  
+}
+.adjustMargin{
+  margin: 0px 100px;
+}
+
+.verticalCenterEL{
+  display: flex;
+  align-items: center;
+}
+ 

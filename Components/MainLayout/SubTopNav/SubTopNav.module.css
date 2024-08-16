@@ -1,0 +1,27 @@
+.header_topback{
+    background-color: aliceblue;
+}
+.header_info{
+  justify-content: space-between;
+}
+.header_currence_main div{
+    margin-right: 23px;
+}
+.myaccount_main h4{
+    font-size: 0.8rem;
+    font-weight: 600;
+    margin-left: 9px;
+}
+.myaccount_main img{
+    width: 20px;
+}
+.TopNav_select_main select{
+    border: none;
+    padding: 20px 13px;
+    font-size: 0.8rem;
+    font-weight: 600;
+    color: #726b6b;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: aliceblue;
+}
