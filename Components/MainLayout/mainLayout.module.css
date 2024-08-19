@@ -28,4 +28,35 @@
     display: flex;
     margin: 0;
 }
+  
+
+.searchNab_main{
+    border: 2px solid #152e4c;
+    padding: 13px 24px 13px 23px;
+    height: 50px;
+    width: 40rem;
+}
+.searchNab_catagories select{
+padding: 0 2rem 0 1.5rem ; 
+border: none;
+font-weight: 400;
+outline: none;
+}
+
+.searchNab_serchInput{
+    flex: auto;
+}
+.searchNab_serchInput input{
+    outline: none;
+    width: 100%;
+    padding: 4px 8px;
+    margin-right: 4px;
+    border: none;
+    font-size: 15px;
+}
+.searchNab_serchInput img{
+    width: 20px;
+}
+
+
  
