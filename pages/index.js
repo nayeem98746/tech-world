@@ -7,9 +7,7 @@ import { home_pageMeta } from '../DataSetStatic/HomePage/data_home'
 export default function Home() {
   return (
      <>
-     <MainLayout pageMeta={home_pageMeta}>
-
-
+     <MainLayout pageMeta={home_pageMeta}>    
      </MainLayout>
      </>
   )
