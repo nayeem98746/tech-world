@@ -28,6 +28,8 @@
 }
 .headerMiddle_wishlist{
     margin: 0 20px;
+    cursor: pointer;
+
 }
 .headerMiddle_wishlist h4{
     margin: 0;
