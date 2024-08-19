@@ -10,6 +10,7 @@ export const navData = {
   },
 };
 export const headerMiddleData = {
+  
   contact: {
     title: "live chat or phone",
     phone: "+8801825987467",

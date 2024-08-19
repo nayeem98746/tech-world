@@ -16,7 +16,7 @@ function HeaderMiddle() {
       <div className={headerMiddle.headerMiddle_imgicon}>
         <h2> TECH-WORLD</h2>
       </div>
-
+{/* asodfjiasodifj */}
       <div>
         <SearchNav></SearchNav>
       </div>
