@@ -4,9 +4,15 @@ import mainLayout from "../mainLayout.module.css";
 import headerMiddle from "./HeaderMiddle.module.css";
 import SearchNav from "./SearchNav";
 
+import { headerMiddleData } from "../../../DataSetStatic/common/navData";
+
 function HeaderMiddle() {
+  // const {headerMiddleData} = headerMiddleData;
+
   return (
-    <div className={`adjustMargin verticalCenterEL ${headerMiddle.headerMiddle_main}`}>
+    <div
+      className={`adjustMargin verticalCenterEL ${headerMiddle.headerMiddle_main}`}
+    >
       <div className={headerMiddle.headerMiddle_imgicon}>
         <h2> TECH-WORLD</h2>
       </div>
@@ -18,23 +24,23 @@ function HeaderMiddle() {
         <div className={`centerEL ${headerMiddle.headerMiddle_liveChat}`}>
           <img src="/iconImg/phone-96.png" alt="" />
           <div>
-            <h4>live chat or phone</h4>
-            <h3>+8801825987467</h3>
+            <h4>{headerMiddleData.contact.title}</h4>
+            <h3>{headerMiddleData.contact.phone}</h3>
           </div>
         </div>
       </div>
       <div className={`centerEL ${headerMiddle.headerMiddle_wishlist}`}>
-        <img src="/iconImg/wishlist-58.png" alt="" />
-        <h4>Wishlist</h4>
+        <img src={headerMiddleData.buttons[0].icon} alt="" />
+        <h4>{headerMiddleData.buttons[0].title}</h4>
       </div>
       <div className={`centerEL ${headerMiddle.headerMiddle_wishlist}`}>
-        <img src="/iconImg/scales-96.png" alt="" />
-        <h4>Compare</h4>
+        <img src={headerMiddleData.buttons[1].icon} alt="" />
+        <h4>{headerMiddleData.buttons[1].title}</h4>
       </div>
       <div className={`centerEL ${headerMiddle.headerMiddle_wishlist}`}>
-        <img src="/iconImg/cart-64.png" alt="" />
-      
-        <h4>Cart</h4>
+        <img src={headerMiddleData.buttons[2].icon} alt="" />
+
+        <h4>{headerMiddleData.buttons[2].title}</h4>
       </div>
     </div>
   );
