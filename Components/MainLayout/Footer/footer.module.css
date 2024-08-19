@@ -1,0 +1,39 @@
+.FooterMain{
+    background-color: #181818;
+    color: rgb(255, 255, 255);
+}
+.SubFooterMain{
+padding: 80px 0;
+    display: flex;
+    width: 80%;
+    margin: auto;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.NavSection{
+    display: flex;
+    gap: 30px;
+}
+
+.NavSection li{
+    list-style: none;
+}
+.footerLogoMain{
+    display: flex;
+    justify-content: space-around;
+}
+.footerLogo{
+    width: 35px;
+    height: 35px;
+}
+
+.sendButt{
+    border: none;
+    background: linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(114,197,201,1) 30%, rgba(9,141,149,1) 100%, rgba(31,176,196,1) 100%);
+    padding: 15px;
+}
+
+.copyRight {
+    font-size: 10px;
+}
