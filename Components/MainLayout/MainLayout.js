@@ -11,7 +11,8 @@ const MainLayout = ({ childen }) => {
       <header>
         <SubTopNav></SubTopNav>
         <HeaderMiddle></HeaderMiddle>
-        <HeaderButtom></HeaderButtom>
+        <HeaderBottom></HeaderBottom>
+        {/* <HeaderButtom></HeaderButtom> */}
       </header>
       <main>{childen}</main>
       <footer>
