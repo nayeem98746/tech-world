@@ -114,3 +114,20 @@
     flex-direction: column;
   }
 }
+
+.carosole_btn{
+  border: 2px solid #666;
+  color: #333;
+  border-color: #333;
+  background-color: transparent;
+  padding: 1em 2.45em;
+  margin-top: 25px;
+  border-radius: 3px;
+  font-weight: 900;
+  display: inline-block;
+}
+.carosole_btn:hover{
+  background-color: #333;
+  color: white;
+  cursor: pointer;
+}

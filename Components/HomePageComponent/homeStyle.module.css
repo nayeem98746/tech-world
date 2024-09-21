@@ -1,0 +1,17 @@
+
+.caresol_Bg{
+    /* background-image: url("/assest/images/sliders/slide-2.jpg"); */
+    height: 480px;
+    background-repeat:no-repeat;
+    -webkit-background-size:cover;
+    -moz-background-size:cover;
+    -o-background-size:cover;
+    background-size:cover;
+    background-position:center;
+  }
+  .caresol_Bg1{background-image: url("/assest/images/sliders/slide-1.jpg");}
+  .caresol_Bg2{background-image: url("/assest/images/sliders/slide-2.jpg");}
+  .caresol_Bg3{background-image: url("/assest/images/sliders/slide-3.jpg");}
+  
+
+  

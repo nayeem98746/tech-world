@@ -4,13 +4,15 @@ import styles from '../styles/Home.module.css'
 import MainLayout from '../Components/MainLayout/MainLayout'
 import { home_pageMeta } from '../DataSetStatic/HomePage/data_home'
 import { productStaticCategory } from '../DataSetStatic/common/productCategories'
+import HomeCarosel from '../Components/HomePageComponent/HomeCarosel'
 
 
 export default function Home() {
   return (
      <>
      <MainLayout pageMeta={home_pageMeta}> 
-      
+        
+     <HomeCarosel></HomeCarosel>
          
      </MainLayout>
      </>
