@@ -14,4 +14,49 @@
   .caresol_Bg3{background-image: url("/assest/images/sliders/slide-3.jpg");}
   
 
-  
+  .header_title div h2{
+    text-align: center;
+    color: rgba(0, 0, 0, 0.8);
+    font-size: 25px;
+    margin: 11px 0px -4px 0px;
+  }
+  .header_title div h3{
+    text-align: center;
+    color: rgba(0, 0, 0, 0.8);
+    font-size: 20px;
+  }
+
+.featured_category{
+  display: grid;
+  grid-template-columns: repeat(6, 2fr);
+  margin-bottom: 40px;
+}
+.featured_category_item{
+  margin: 15px 50px;
+  padding: 1px 20px;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+
+}
+.featured_category_img img{
+  width: 80px;
+  display: block ;
+  margin-left: auto;
+  margin-right: auto;
+}
+.featured_category_title h3{
+  text-align: center;
+  color: rgba(0, 0, 0, 0.8);
+  font-size: 20px;
+  font-weight: 500;
+ 
+}
+.featured_category_title h3:hover{
+  color: rgba(0, 0, 0, 0.6);
+}
+.featured_category_item:hover{
+  background-color: rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+}
