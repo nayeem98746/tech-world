@@ -4,6 +4,7 @@ import NavLink from "next/link";
 import { mainNavItems } from "../../../DataSetStatic/common/navData";
 import { useRouter } from "next/router";
 import Link from "next/link";
+import NavBottomCategory from "./NavBottomCategory";
 
 const HeaderBottom = () => {
   const [showButton, setShowButton] = useState(true);
@@ -12,6 +13,8 @@ const HeaderBottom = () => {
 
   return (
     <div className={`centerEL baseContainer ${mainLayout.headerBTM_ct_parent_wrapper}`}>
+ <NavBottomCategory></NavBottomCategory>
+
     <div className={mainLayout.headerBottomNav_links}>
     <label
         style={{ display: "none" }}

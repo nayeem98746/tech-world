@@ -94,4 +94,152 @@ outline: none;
     background-size: 100% var(--border-width);
     color: blue;
 }
- 
+.headerBTM_ct_wrapper{
+    /* position: relative; */
+}
+.headerBTM_ct_wrapper:hover  .headerBTM_main_ctg{
+    max-height: 500px;
+    transition: all 0.4s ease-in;
+}
+
+.headerBTM_main_ctg{
+    position: absolute;
+    box-shadow: 0 0 3px 1px rgb(241, 240, 240);
+    top: 60px;
+    left: 10;
+    overflow: hidden;
+    transition: all 0.2s ease-in;
+    max-height: 0; 
+    background-color: white;
+    z-index: 1;
+}
+.headerBTM_main_ctg:hover{
+    max-height: auto;
+    /* background-color: orange; */
+    overflow: visible;
+}
+
+/* .headerBTM_main_ctg_wrapper{ */
+.headerBTM_main_ctg_wrapper:hover{
+    display: flex;
+    grid-template-columns: 1fr 2fr;
+}
+
+.sub_ctg_wrap{
+    position: absolute;
+    top: 0;
+    left: 280px;
+    background-color: white;
+    --subCtgShadow: 0 2px 35px rgb(0 0 0 / 10%); 
+    --subCtgTransition: max-width 0.3s ease-in; 
+}
+
+
+.sub_ctg_0 {max-width: 0px; overflow: hidden;}
+.headerBTM_main_ctg_wrapper:hover .sub_ctg_0{max-width: 680px; white-space: nowrap; transition: var(--subCtgTransition); box-shadow: var(--subCtgShadow);}
+.sub_ctg_1{max-width: 0px;  overflow: hidden;}
+.headerBTM_main_ctg_wrapper:hover .sub_ctg_1{max-width: 680px; white-space: nowrap; transition: var(--subCtgTransition); box-shadow: var(--subCtgShadow);}
+.sub_ctg_2{max-width: 0px;  overflow: hidden;}
+.headerBTM_main_ctg_wrapper:hover .sub_ctg_2{max-width: 680px; white-space: nowrap; transition: var(--subCtgTransition); box-shadow: var(--subCtgShadow);}
+.sub_ctg_3{max-width: 0px;  overflow: hidden;}
+.headerBTM_main_ctg_wrapper:hover .sub_ctg_3{max-width: 680px; white-space: nowrap; transition: var(--subCtgTransition); box-shadow: var(--subCtgShadow);}
+.sub_ctg_4{max-width: 0px;  overflow: hidden;}
+.headerBTM_main_ctg_wrapper:hover .sub_ctg_4{max-width: 680px; white-space: nowrap; transition: var(--subCtgTransition); box-shadow: var(--subCtgShadow);}
+.sub_ctg_5{max-width: 0px;  overflow: hidden;}
+.headerBTM_main_ctg_wrapper:hover .sub_ctg_5{max-width: 680px; white-space: nowrap; transition: var(--subCtgTransition); box-shadow: var(--subCtgShadow);}
+.sub_ctg_6{max-width: 0px;  overflow: hidden;}
+.headerBTM_main_ctg_wrapper:hover .sub_ctg_6{max-width: 680px; white-space: nowrap; transition: var(--subCtgTransition); box-shadow: var(--subCtgShadow);}
+.sub_ctg_7{max-width: 0px;  overflow: hidden;}
+.headerBTM_main_ctg_wrapper:hover .sub_ctg_7{max-width: 680px; white-space: nowrap; transition: var(--subCtgTransition); box-shadow: var(--subCtgShadow);}
+.sub_ctg_8{max-width: 0px;  overflow: hidden;}
+.headerBTM_main_ctg_wrapper:hover .sub_ctg_8{max-width: 680px; white-space: nowrap; transition: var(--subCtgTransition); box-shadow: var(--subCtgShadow);}
+.sub_ctg_9{max-width: 0px;  overflow: hidden;}
+.headerBTM_main_ctg_wrapper:hover .sub_ctg_9{max-width: 680px; white-space: nowrap; transition: var(--subCtgTransition); box-shadow: var(--subCtgShadow);}
+
+
+
+.headerBTM_ctg{
+    font-size: 15px;
+    font-weight: 600;
+    background-color: #f1f1f1f1;
+}
+.headerBTM_ctg:hover{
+    background-color: #336699;
+    color: white;
+    cursor: pointer;
+    transition: all 0.4s;
+}
+.headerBTM_ctg:hover svg{
+    transition: all 0.4s;
+    fill: white ;
+}
+.category_spacing{
+    padding: 10px 20px;
+    display: flex;
+    min-width: 280px;
+}
+.category_spacing svg{
+    margin-right: 10px;
+}
+
+.category_spacing{
+    border-bottom: 1px solid #eeeeee;
+}
+
+
+.navBTM_sub_ctg{
+    display: flex;
+    gap: 30px;
+}
+
+.navBTM_sub_ctg div{
+    padding-top: 10px;
+}
+
+.navBTM_gender{
+    margin: 0 0 0 10px;
+    padding: 0 0 10px;
+    border-bottom: 1px solid rgb(216, 210, 210);
+}
+.navBTM_sub_ctg_btn{
+    margin: 2px 0 3px 0px;
+    padding: 2px 0 2px 15px;
+    cursor: pointer;
+}
+.navBTM_sub_ctg_btn:hover{
+    background-color: lightgray;
+    border-radius: 3px;
+}
+.navBTM_gender{
+    margin: 0 0 0 10px;
+    padding: 0 0 10px;
+    border-bottom: 1px solid rgb(216, 210, 210);
+}
+.navBTM_sub_ctg_btn{
+    margin: 2px 0 3px 0px;
+    padding: 2px 0 2px 15px;
+    cursor: pointer;
+}
+.navBTM_sub_ctg_btn:hover{
+    background-color: lightgray;
+    border-radius: 3px;
+}
+.navBTM_subCtg_discount{
+    /* background: url('/assest/images/menu/banner-2.jpg'); */
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 235px;
+    height: 300px;
+}
+.navBTM_subCtg_discount h4{
+    font-size: 16px;
+    margin: 20px 0 5px 20px;
+}
+.navBTM_subCtg_discount h2{
+    font-size: 18px;
+    margin: 0 0 5px 20px;
+}
+.navBTM_subCtg_discount h5{
+    font-size: 13px;
+    margin: 0 0 5px 20px;
+}

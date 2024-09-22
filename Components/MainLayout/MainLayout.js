@@ -5,7 +5,7 @@ import HeaderBottom from "./HeaderBottom/HeaderBottom";
 import HeaderMiddle from "./HeaderMiddle.js/HeaderMiddle";
 import HeaderButtom from "./HeaderButtom/HeaderButtom";
 
-const MainLayout = ({ childen }) => {
+const MainLayout = ({ children }) => {
   return (
     <div>
       <header>
@@ -14,7 +14,8 @@ const MainLayout = ({ childen }) => {
         <HeaderBottom></HeaderBottom>
         {/* <HeaderButtom></HeaderButtom> */}
       </header>
-      <main>{childen}</main>
+      <main>{children}</main>
+       
       <footer>
         <Footer />
       </footer>
