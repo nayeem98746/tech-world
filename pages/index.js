@@ -5,7 +5,7 @@ import MainLayout from '../Components/MainLayout/MainLayout'
 import { home_pageMeta } from '../DataSetStatic/HomePage/data_home'
  import HomeCarosel from '../Components/HomePageComponent/HomeCarosel'
 import FeaturedCategory from '../Components/HomePageComponent/FeaturedCategory'
-
+  
 
 export default function Home() {
   return (
@@ -13,8 +13,9 @@ export default function Home() {
      <MainLayout pageMeta={home_pageMeta}> 
         
      <HomeCarosel></HomeCarosel>
-         <FeaturedCategory />
-     </MainLayout>
+      <FeaturedCategory />
+  
+      </MainLayout>
      </>
   )
 }
