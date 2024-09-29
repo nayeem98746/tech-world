@@ -60,3 +60,15 @@
   background-color: rgba(0, 0, 0, 0.1);
   cursor: pointer;
 }
+
+
+
+/* style for ohi */
+.carousel_body{
+  height: 40%;
+}
+.mySwiper{
+  width: 80%;
+  margin: auto;
+  height: 100%;
+}
