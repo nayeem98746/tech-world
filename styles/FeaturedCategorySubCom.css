@@ -1,0 +1,31 @@
+.fertured_details_main{
+    margin: 23px 200px 23px 200px;
+}
+.fertured_details_main h2{
+    text-align: left;
+    color: rgba(0, 0, 0, 0.8);
+    font-size: 20px;
+    margin: 11px 0px 0px 0px;
+}
+.fertured_details_main h4{
+    text-align: left;
+    color: rgba(30, 41, 58, 1);
+    font-weight: 500;
+    font-size: 18px;
+}
+.fertured_details_main button{
+    padding: 10px 30px 10px 30px;
+    border: 2px solid rgba(0, 0, 0, 0.1);
+    border-radius: 23px;
+    background: aliceblue;
+    font-weight: 700;
+    margin: 23px 12px 23px 0px;
+}
+.fertured_details_main button:hover{
+     border: 2px solid gold;
+    border-radius: 23px;
+    background: black;
+    color: gold;
+    font-weight: 700;
+
+}
